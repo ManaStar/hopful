@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "hopful:block/rabbit_tuft_block_top",
+    "side": "hopful:block/rabbit_tuft_block_side"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "hopful:block/rabbit_tuft_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "hopful:block/rabbit_tuft_block"
+    },
+    "axis=z": {
+      "model": "hopful:block/rabbit_tuft_block_horizontal",
+      "x": 90
+    }
+  }
+}

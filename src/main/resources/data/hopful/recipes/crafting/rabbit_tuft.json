@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "hopful:rabbit_tuft_block"
+    }
+  ],
+  "result": {
+    "item": "hopful:rabbit_tuft",
+    "count": 9
+  }
+}

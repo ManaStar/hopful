@@ -9,7 +9,7 @@
 			"name": "Hopful",
 			"description": "A mod putting a little spring in the step of Minecraft's Rabbit.",
 			"contributors": {
-				"MiteBeMana": "Coder",
+				"MiteBeMana": "Owner",
 				"SuperMightByte": "Artist"
 			},
 			"contact": {
@@ -20,7 +20,8 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.mitebemodding.hopful.core.Hopful"
+			"init": "com.mitebemodding.hopful.core.Hopful",
+			"client_init": "com.mitebemodding.hopful.client.HopfulClient"
 		},
 		"depends": [
 			{
@@ -34,6 +35,10 @@
 			{
 				"id": "minecraft",
 				"versions": "1.19.2"
+			},
+			{
+				"id": "geckolib3",
+				"versions": "3.1.14"
 			}
 		]
 	},
